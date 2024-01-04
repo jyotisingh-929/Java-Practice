@@ -13,7 +13,6 @@ public class FactorialNumber {
             factorial = factorial * i;
         }
         System.out.println("Factorial of "+n+" number is = "+factorial);
-        return;
     }
 
     public static void main(String[] args) {

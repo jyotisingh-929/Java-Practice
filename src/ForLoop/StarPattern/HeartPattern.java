@@ -4,9 +4,9 @@ import java.util.*;
 public class HeartPattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of row:");
+        System.out.println("Enter the value of upper row:");
         int row =sc.nextInt();
-        System.out.println("Enter the value of other row:");
+        System.out.println("Enter the value of other lower row:");
         int num = sc.nextInt();
 
         for (int i=2; i<=row; i++){

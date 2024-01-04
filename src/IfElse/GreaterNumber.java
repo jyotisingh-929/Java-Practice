@@ -18,15 +18,17 @@ public class GreaterNumber {
 //        }
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of a!");
         int a = sc.nextInt();
+        System.out.println("Enter the value of b!");
         int b = sc.nextInt();
 
         if (a == b){
             System.out.println("Equal");
         }else if (a > b){
-            System.out.println("A is Greater");
+            System.out.println(a+ " is Greater Number!");
         }else {
-            System.out.println("A is Less");
+            System.out.println(a+ " is Less Number!");
         }
     }
 }
