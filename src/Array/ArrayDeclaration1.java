@@ -3,7 +3,7 @@
 
 package Array;
 
-public class ArraysDeclaration1 {
+public class ArrayDeclaration1 {
     public static void main(String[] args) {
         // declares an Array of integers.
         int [] marks ;
